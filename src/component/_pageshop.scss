@@ -293,6 +293,7 @@ input[type=range]::-webkit-slider-thumb {
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     border-bottom: 1px solid #E7E5EA;
+    padding-bottom: 40px;
 }
 .content-cart__item{
     display: flex;
@@ -330,6 +331,7 @@ input[type=range]::-webkit-slider-thumb {
     gap: 46px;
     align-items: center;
 }
+
 .pagination__page{
     display: flex;
     align-items: center;
