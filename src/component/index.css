@@ -892,12 +892,10 @@ header {
   text-align: center;
   justify-content: center;
   gap: 39px;
-  padding: 100px 0px 245px;
+  padding: 148px 245px 245px 245px;
 }
 
 .page-hero__title {
-  width: 770px;
-  height: 144px;
   color: #2D3958;
   text-align: center;
   font-family: var(--font-outfit);
@@ -916,8 +914,6 @@ header {
 }
 
 .page-hero__paragraph {
-  width: 669.302px;
-  height: 47.95px;
   color: #7B88A8;
   text-align: center;
   font-family: var(--font-dm-san);
@@ -986,8 +982,8 @@ header {
   width: 12.5%;
   max-width: 12.5%;
   visibility: visible;
-  left: 27.51%;
-  top: 74.57%;
+  left: 26.51%;
+  top: 82.57%;
 }
 
 .page-hero_item--2 img {
@@ -998,8 +994,8 @@ header {
   /* width: 14.58%;
   max-width: 14.58%; */
   visibility: visible;
-  left: 68.6%;
-  top: 56.21%;
+  left: 70.6%;
+  top: 59.21%;
 }
 
 .page-hero_item--3 img {
@@ -1038,8 +1034,7 @@ header {
   align-items: center;
   text-align: center;
   gap: 30px;
-  width: 970px;
-  margin: 0 auto;
+  padding: 120px 100px 40px 100px;
 }
 
 .page-service__title {
@@ -1163,7 +1158,7 @@ header {
 
 /* logo */
 .page-logo__container {
-  margin: 100px auto;
+  padding: 100px 0px;
 }
 
 .page-logo__title {
@@ -1189,7 +1184,7 @@ header {
 }
 
 .page-logo__content {
-  width: 915px;
+  padding: 0px 200px;
   height: 47.851px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1471,7 +1466,7 @@ header {
   align-items: center;
   text-align: center;
   gap: 30px;
-  width: 870px;
+  padding: 0px 200px;
   margin: 0 auto;
 }
 
@@ -1653,8 +1648,7 @@ header {
 /* #endregion */
 /* #region portfolio */
 .page-portfolio__textbox {
-  padding-top: 100px;
-  width: 870px;
+  padding: 100px 100px 0px 100px;
   margin: 0 auto;
 }
 
