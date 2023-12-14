@@ -86,14 +86,16 @@
     gap: 10px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    height: 0;
+    // opacity: 0;
+    // pointer-events: none;
+    // height: 0;
+    // overflow: hidden;
 }
-.product__item-content.active{
-    opacity: 0;
-    pointer-events: none;
-}
+// .product__item-content.active{
+//     opacity: 1;
+//     pointer-events: auto;
+//     height: auto;
+// }
 .product__item-content--el{
     padding: 21px 0px 21px 21px;
 }
