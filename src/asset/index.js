@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded',function(){
             brg.classList.remove('active');
         }
     });
-
     // code slide //
     const texts = document.querySelectorAll(".page-about__text");
     const dots = document.querySelectorAll(".page-about__dot");
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded',function(){
             texts[index].classList.add('active');
         })
     });
-
     // dropdown
     document.addEventListener('DOMContentLoaded', function () {
         const imgClickElements = document.querySelectorAll('.product__img-click');
