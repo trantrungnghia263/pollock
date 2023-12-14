@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded',function(){
 
     dots.forEach((dot,index)=>{
         dot.addEventListener('click',()=>{
-            // alert('ok')
             // xoá 'active' class từ tất cả các texts và dots
             texts.forEach(text=>{
                 text.classList.remove('active');

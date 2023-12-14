@@ -98,6 +98,14 @@
   gap: 10px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+}
+
+.product__item-content.active {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .product__item-content--el {
@@ -127,7 +135,7 @@
 }
 
 /* Ẩn hộp checkbox mặc định */
-input[type=checkbox] {
+.product__checkbox-group > input[type=checkbox] {
   -moz-appearance: none;
   -webkit-appearance: none;
   -o-appearance: none;
@@ -136,7 +144,7 @@ input[type=checkbox] {
   cursor: pointer;
 }
 
-input[type=checkbox] + label::before {
+.product__checkbox-group > input[type=checkbox] + label::before {
   content: "✔";
   font-size: 10px;
   display: inline-block;
@@ -149,7 +157,7 @@ input[type=checkbox] + label::before {
   line-height: 15px;
 }
 
-input[type=checkbox]:checked + label::before {
+.product__checkbox-group > input[type=checkbox]:checked + label::before {
   background-color: #333;
   color: white;
 }
@@ -369,7 +377,6 @@ input[type=range]::-webkit-slider-thumb {
 /* pagination */
 .pagination {
   cursor: pointer;
-  padding-top: 40px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -508,6 +515,12 @@ input[type=range]::-webkit-slider-thumb {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  border-radius: 5px;
+  border: 1px solid #E7E5EA;
+}
+
+.article-cart__img-lg img {
+  border-radius: 5px;
 }
 
 .article-cart__post-by {
@@ -543,7 +556,7 @@ input[type=range]::-webkit-slider-thumb {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 0px 40px;
+  padding: 0px 40px 40px 40px;
 }
 
 .article-cart__text-title {
@@ -1769,7 +1782,7 @@ header {
   background-color: #34C635;
 }
 
-.page-pricing__toggle input {
+.page-pricing__click {
   display: none !important;
 }
 
